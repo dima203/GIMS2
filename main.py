@@ -156,7 +156,6 @@ def main():
         TIME += clock.get_time()
         whack_time += clock.get_time()
         CURRENT_WHACK_SHOW_TIME = int(WHACK_SHOW_TIME / (TIME / 1000 / 60 * 2 + 1))
-        print(CURRENT_WHACK_SHOW_TIME)
 
 
 if __name__ == '__main__':
